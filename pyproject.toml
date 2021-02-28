@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "twitter_bot"
+version = "0.1.0"
+description = ""
+authors = ["Samuel Rince <s@rince.me>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.2.2"
+numpy = "^1.20.1"
+torch = "^1.7.1"
+torchtext = "^0.8.1"
+transformers = "^4.3.2"
+tqdm = "^4.57.0"
+scikit-learn = "^0.24.1"
+spacy = "^3.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
